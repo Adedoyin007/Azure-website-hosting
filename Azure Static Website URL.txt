@@ -1,0 +1,2 @@
+Azure Static Website URL
+https://asiwajustorageaccount.z13.web.core.windows.net/

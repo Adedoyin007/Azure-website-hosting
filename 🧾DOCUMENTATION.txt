@@ -1,0 +1,41 @@
+🧾DOCUMENTATION 
+
+Performance Tier Selection: Standard
+
+The Standard performance tier was selected because it provides a cost-effective storage solution suitable for static websites.
+
+* It uses HDD-based storage, making it cheaper than Premium
+* Performance is sufficient for HTML, CSS, images, and JavaScript delivery
+* Ideal for low to moderate traffic workloads
+
+👉 Impact:
+Reduced cost with acceptable performance for static content delivery
+
+⸻
+
+Redundancy Selection: LRS (Locally Redundant Storage)
+
+LRS replicates data three times within a single data center.
+
+* Protects against disk and hardware failures
+* Cheapest redundancy option in Azure
+* Does not provide cross-region failover
+
+👉 Impact:
+
+* Cost: Lowest possible storage cost
+* Availability: High within a single region, but no protection against regional outages
+
+⸻
+
+Final Justification
+
+The combination of:
+
+* Standard + LRS
+
+was chosen to:
+
+* Minimize cost
+* Maintain sufficient availability
+* Match the requirements of a non-critical static website
